@@ -1,6 +1,9 @@
 # Mousetrap
 [![CDNJS](https://img.shields.io/cdnjs/v/mousetrap.svg)](https://cdnjs.com/libraries/mousetrap)
 
+This is the Codesphere fork of Mousetrap. Mousetrap is no longer actively, the last commit was in January of 2020.
+Since we want some minimal changes in the library we decided to fork it into our org.
+
 Mousetrap is a simple library for handling keyboard shortcuts in Javascript.
 
 It is licensed under the Apache 2.0 license.
