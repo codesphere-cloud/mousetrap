@@ -432,7 +432,7 @@
         return _belongsTo(element.parentNode, ancestor);
     }
 
-    function Mousetrap(targetElement, useCapture) {
+    function Mousetrap(targetElement, {useCapture}) {
         var self = this;
 
         targetElement = targetElement || document;

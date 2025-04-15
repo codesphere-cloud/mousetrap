@@ -3,9 +3,13 @@ declare namespace Mousetrap {
 		returnValue: boolean; // IE returnValue
 	}
 
+	interface MousetrapOpts {
+		useCapture: boolean;
+	}
+
 	interface MousetrapStatic {
 		(el?: Element): MousetrapInstance;
-		new (el?: Element, useCapture?: boolean): MousetrapInstance;
+		new (el?: Element, opts?: MousetrapOpts): MousetrapInstance;
 		addKeycodes(keycodes: { [key: number]: string }): void;
 		stopCallback: (
 			e: ExtendedKeyboardEvent,
