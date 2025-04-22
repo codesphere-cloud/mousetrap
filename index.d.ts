@@ -1,3 +1,11 @@
+// Copyright (c) Dániel Tar, Alan Choi, Nic Barker, Piotr Błażejewicz and other contributors
+// (Listed as owners in the DefinitelyTyped package metadata)
+//
+// This file is licensed under the MIT License.
+// A copy of the license text can be found in the LICENSE-MIT file.
+// All other files in the repository are licensed under the Apache 2.0 License
+// which can be found in the LICENSE file.
+
 declare namespace Mousetrap {
 	interface ExtendedKeyboardEvent extends KeyboardEvent {
 		returnValue: boolean; // IE returnValue
